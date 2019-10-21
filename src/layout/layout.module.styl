@@ -1,0 +1,77 @@
+*
+    box-sizing: border-box
+
+
+html
+    height: 100%
+    margin: 0
+    padding: 0
+
+
+body
+    margin: 0
+    padding: 0
+    background-color: #fffbf8
+    font-family: 'Inconsolata','Helvetica Neue','Segoe UI','Helvetica','Arial',sans-serif
+
+pre
+    code
+        background-color #333333
+        display: block
+        padding: 1.5rem
+        overflow: auto
+        box-shadow: 2px 4px 25px rgba(0,0,0,.15)
+
+code[class*=language-]
+pre[class*=language-]
+pre
+    code
+        color: #b3b9c5
+        direction: ltr
+        white-space: pre
+        word-spacing: normal
+        text-align: left
+        line-height: 1.7
+        font-weight: 400
+        tab-size: 2
+        border-radius: 4px
+        word-break: normal
+
+blockquote
+    padding: 10px
+    border-left: 5px solid #F05032
+    margin: 0
+
+    p
+        margin: 0
+
+.container
+    width: 40%
+    max-width: 800px
+    margin: 0 auto
+
+    display: flex
+    flex-direction: column
+    min-height: 30vh
+
+
+    .content
+        flex-grow: 1
+
+
+@media (max-width: 1800px)
+    .container
+        width: 45%
+    
+@media (max-width: 1400px)
+    .container
+        width: 55%
+
+@media (max-width: 1000px)
+    .container
+        width: 65%
+
+@media (max-width: 800px)
+    .container
+        width: 85%
+    

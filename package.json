@@ -1,0 +1,54 @@
+{
+  "name": "dcyar.github.io",
+  "private": true,
+  "description": "Personal website running on Gatsby, React, and Node.js.",
+  "version": "1.0.0",
+  "author": "Jhon Achata <jachata.m@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.16.1",
+    "gatsby-image": "^2.2.29",
+    "gatsby-plugin-catch-links": "^2.1.15",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.2.23",
+    "gatsby-plugin-offline": "^3.0.16",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sharp": "^2.2.32",
+    "gatsby-plugin-stylus": "^2.1.14",
+    "gatsby-remark-images": "^3.1.28",
+    "gatsby-source-filesystem": "^2.1.33",
+    "gatsby-transformer-remark": "^2.6.30",
+    "gatsby-transformer-sharp": "^2.2.23",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-facebook": "^8.0.4",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "jhon achata",
+    "dcyar",
+    "blog"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "deploy": "npm run clean && npm run build && gh-pages -d public -b master",
+    "clean": "rm -rf public && rm -rf .cache",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcyar/dcyar.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
