@@ -1,0 +1,57 @@
+.vcard
+    margin-bottom: 35px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    .vcard-about
+        .vcard-title
+            font-family: 'Helvetica', sans-serif
+            font-size: 3rem
+            margin-bottom: 0
+
+
+        .vcard-resume
+            font-size: 1.3rem
+
+
+        .vcard-links
+            .vcard-links-list
+                display: flex
+                padding: 0
+
+                .vcard-link
+                    list-style: none
+                    margin: 8px
+                    border-radius: 10px
+
+                    .vcard-route
+                        text-decoration: none
+                        padding: 10px 10px 10px 0
+                        font-weight: bold
+
+                        &::before
+                            content: '> '
+
+
+
+    .vcard-photo
+        margin: 0 0 0 20px
+
+
+        .photo
+            width: 150px
+            border-radius: 50%
+
+
+@media (max-width: 800px)
+    .vcard
+        .vcard-about
+            .vcard-title
+                font-size: 3rem
+
+    .vcard
+        .vcard-photo
+            display: none
+    
+    
