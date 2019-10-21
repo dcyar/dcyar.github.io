@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import style from './blog.module.styl'
 
 function Blog({data}) {
-    console.log(data)
     return (
         <div className={style.blog}>
             <h1 className={style.blogTitle}>

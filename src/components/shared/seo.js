@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-import photo from "../../images/profile.jpg"
+import cover from "../../images/facebook-open-graph.png"
 
 function SEO({ description, lang, meta, title, url }) {
     const { site } = useStaticQuery(
@@ -43,7 +43,7 @@ function SEO({ description, lang, meta, title, url }) {
                 },
                 {
                     name: `og:image`,
-                    content: photo
+                    content: cover
                 },
                 {
                     name: `og:url`,
