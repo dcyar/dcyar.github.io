@@ -1,5 +1,5 @@
 import React from 'react'
-import { FacebookProvider, ShareButton, Comments } from 'react-facebook'
+// import { FacebookProvider, ShareButton, Comments } from 'react-facebook'
 
 import style from './share.module.styl'
 
@@ -11,12 +11,12 @@ function SocialShare({url}) {
             {/* <div data-href={window.location.url} data-layout="button" data-size="large">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdcyar.github.io%2F&amp;src=sdkpreparse" className={style.fbShareBtn}>Share on Facebook</a>
             </div> */}
-            <FacebookProvider appId="1200199847034329">
+            {/* <FacebookProvider appId="1200199847034329">
                 <ShareButton href={url} className={style.fbShareBtn}>
                     Share on Facebook
                 </ShareButton>
                 <Comments href={url} width="100%" numPost="5" />
-            </FacebookProvider>
+            </FacebookProvider> */}
 
             {/* <div>
                 <ul>
