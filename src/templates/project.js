@@ -15,7 +15,7 @@ function Project({ data }) {
     const { markdownRemark: post } = data // data.markdownRemark holds your post data
     return (
         <Layout config={siteConfig}>
-            <SEO title={post.frontmatter.title} description={post.frontmatter.description} url={siteConfig.url + post.frontmatter.path} />
+            <SEO title={post.frontmatter.title} description={post.frontmatter.description} url={siteConfig.url + '/project' + post.frontmatter.path} />
             <div className={style.blogHeader}>
                 <figure>
                     <Img

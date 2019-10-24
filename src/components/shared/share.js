@@ -13,7 +13,9 @@ function SocialShare({url, id, title}) {
         <div className={style.niceDay}>
             <p>You have a <span>good day!!</span></p>
 
-            <CommentCount config={disqusConfig} />
+            <p className={style.noticeInfo}>Estamos teniendo problemas con el boton de compartir en facebook, por favor hacerlo manualmente, GRACIAS.</p>
+
+            
             <Disqus config={disqusConfig} />
         </div>
     )
