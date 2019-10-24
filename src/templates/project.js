@@ -11,7 +11,7 @@ import { formatDate } from "../utils/global"
 import style from "./blog.module.styl"
 
 
-function Blog({ data }) {
+function Project({ data }) {
     const { markdownRemark: post } = data // data.markdownRemark holds your post data
     return (
         <Layout config={siteConfig}>
@@ -51,10 +51,10 @@ function Blog({ data }) {
     )
 }
 
-export default Blog
+export default Project
 
 export const data = graphql`
-    query BlogPostBySlug($slug: String!) {
+    query ProjectBySlug($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug }}) {
             id
             html

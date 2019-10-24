@@ -1,26 +1,26 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Layout from '../layout/layout'
-import SEO from '../components/shared/seo'
-import Post from '../components/shared/post'
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../layout/layout"
+import SEO from "../components/shared/seo"
+import Post from "../components/shared/post"
 
 
-import siteConfig from '../../data/siteConfig'
+import siteConfig from "../../data/siteConfig"
 
-const BlogPage = ({data}) => (
+const ProjectPage = ({data}) => (
     <Layout config={siteConfig} >
-        <SEO title="Blog" />
+        <SEO title="Projects" />
         <div className="about-container">
-            <Post data={data.posts.edges} title="Articles" path="/blog" />
+            <Post data={data.projects.edges} title="Projects" path="/project" />
         </div>
     </Layout>
 )
 
-export default BlogPage
+export default ProjectPage
 
 export const data = graphql`
-        query AllBlogPosts {
-            posts: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {group: {eq: "blog"}}}){
+        query AllProjectsPost {
+            projects: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {group: {eq: "project"}}}){
                 edges {
                     node {
                         frontmatter {
