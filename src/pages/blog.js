@@ -20,7 +20,7 @@ export default BlogPage
 
 export const data = graphql`
         query AllBlogPosts {
-            posts: allMarkdownRemark{
+            posts: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}){
                 edges {
                     node {
                         fields {
