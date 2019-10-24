@@ -1,6 +1,6 @@
 ---
 path: "/orec-ex"
-title: "Proyecto Open Source OREC-EX"
+title: "OREC-EX"
 date: 2019-10-25
 thumbnail: "../thumbnails/default.png"
 group: "project"
@@ -11,7 +11,9 @@ tags:
     - laravel
 ---
 
-**OREC-EX** es un proyecto Open Source para la digitalizacion, emision y control de actas (nacimientos, matrimonios, defunciones) en las *Oficinas de Registros del Estado Civil*, que hay en distintos, distritos o provincias a nivel nacional.
+**<a href="https://github.com/dcyar/orec-ex" target="_blank">OREC-EX</a>** es un proyecto Open Source para la digitalizacion, emision y control de actas (nacimientos, matrimonios, defunciones) en las *Oficinas de Registros del Estado Civil*, que hay en distintos, distritos o provincias a nivel nacional.
+
+
 
 ![OREC-EX Dashboard](./dashboard.png)
 
@@ -35,6 +37,6 @@ tags:
 
 ![OREC-EX Details](./act.png)
 
-Actualmente estoy trabajando en el **manual de uso** y la **documentacion del sistema**, que estaran disponibles pronto.
-
 Si deseas usar el sistema y necesitas ayuda con la instalacion o el uso, puedes contactarme al siguiente email: ***jachata.m@gmail.com***
+
+> Puedes acceder al sistema desde aqui <a href="https://github.com/dcyar/orec-ex" target="_blank">OREC-EX</a>
