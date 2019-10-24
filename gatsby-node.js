@@ -25,6 +25,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
 exports.createPages = async ({ actions, graphql, reporter }) => {
     const { createPage } = actions
 
+    const projectTemplate = path.resolve(`src/templates/project.js`)
     const blogPostTemplate = path.resolve(`src/templates/blog.js`)
 
     const result = await graphql(`
@@ -37,6 +38,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
                         }
                         frontmatter {
                             path
+                            group
                         }
                     }
                 }
@@ -48,14 +50,31 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         reporter.panicOnBuild(`Error while running GraphQL query.`)
         return
     }
+
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-            path: `/blog${node.frontmatter.path}`,
-            // path: `/blog/${node.fields.slug}`,
-            component: blogPostTemplate,
-            context: {
-                slug: node.fields.slug
-            }, // additional data can be passed via context
-        })
+        if (node.frontmatter.group === 'project')
+        {
+            createPage(
+                {
+                    path: `/project${node.frontmatter.path}`,
+                    component: projectTemplate,
+                    context: {
+                        slug: node.fields.slug
+                    }, // additional data can be passed via context
+                }
+            )
+        }
+        if (node.frontmatter.group === 'blog')
+        {
+            createPage(
+                {
+                    path: `/blog${node.frontmatter.path}`,
+                    component: blogPostTemplate,
+                    context: {
+                        slug: node.fields.slug
+                    }, // additional data can be passed via context
+                }
+            )
+        }
     })
 }
