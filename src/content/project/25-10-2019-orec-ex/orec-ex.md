@@ -1,7 +1,7 @@
 ---
 path: "/orec-ex"
 title: "Proyecto Open Source OREC-EX"
-date: 2019-10-20
+date: 2019-10-25
 thumbnail: "../thumbnails/default.png"
 group: "project"
 category: "development"
