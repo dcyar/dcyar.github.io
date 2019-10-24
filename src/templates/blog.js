@@ -48,7 +48,7 @@ function Blog({ data }) {
                     dangerouslySetInnerHTML={{ __html: post.html }}
                 />
             </div>
-            <SocialShare url={siteConfig.url + post.frontmatter.path}></SocialShare>
+            <SocialShare url={siteConfig.url + '/blog' + post.frontmatter.path} id={post.id} title={post.frontmatter.title}></SocialShare>
         </Layout>
     )
 }
@@ -58,7 +58,11 @@ export default Blog
 export const data = graphql`
     query BlogPostBySlug($slug: String!) {
         markdownRemark(fields: { slug: { eq: $slug }}) {
+            id
             html
+            fields {
+                slug
+            }
             frontmatter {
                 date
                 title
