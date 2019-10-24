@@ -24,6 +24,24 @@ const siteConfig = {
             user: 'dcyar_',
             url: 'https://twitter.com/dcyar_'
         },
+    ],
+    menuLinks: [
+        {
+            name: 'Home',
+            path: '/',
+        },
+        {
+            name: 'Projects',
+            path: '/projects',
+        },
+        {
+            name: 'Blog',
+            path: '/blog',
+        },
+        {
+            name: 'Contact',
+            path: '/contact',
+        }
     ]
 }
 
