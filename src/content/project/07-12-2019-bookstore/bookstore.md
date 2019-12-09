@@ -1,8 +1,8 @@
 ---
 path: "/laravel-bookstore"
 title: "Laravel Bookstore"
-date: 2019-12-08
-thumbnail: "../thumbnails/default.png"
+date: 2019-12-07
+thumbnail: "../thumbnails/laravel.png"
 group: "project"
 category: "development"
 description: 'Laravel Bookstore es un ecommerce pequeño, donde se muestra lo basico para una tienda online.'

@@ -15,7 +15,7 @@ function Vcard() {
                             <a href="https://github.com/dcyar/" className={style.vcardRoute} target="_blank" rel="noopener noreferrer">Github</a>
                         </li>
                         <li className={style.vcardLink}>
-                            <a href="https://twitter.com/dcyar444/" className={style.vcardRoute} target="_blank" rel="noopener noreferrer">Twitter</a>
+                            <a href="https://twitter.com/dcyar_/" className={style.vcardRoute} target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
                     </ul>
                 </div>
