@@ -1,16 +1,16 @@
 const siteConfig = {
-    siteTitle: 'Jhon Achata Fullstack Developer',
+    siteTitle: 'Jhon Achata Limachi Fullstack Developer',
     siteTitleShort: 'JhOn Al',
-    siteTitleAlt: 'Jhon Achata Fullstack Developer',
+    siteTitleAlt: 'Jhon Achata Limachi Fullstack Developer',
     siteLogo: '../src/images/gatsby-icon.png',
-    siteDescription: 'Jhon Achata, fullstack, curioso, amante de la musica y la calidad de experiencia humana.',
+    siteDescription: 'Jhon Achata Limachi, fullstack, curioso, amante de la musica y la calidad de experiencia humana.',
     siteAuthor: 'Jhon Achata Limachi',
     dateFormat: "MMMM Do, YYYY",
     userName: 'Jhon Achata',
     userEmail: 'jachata.m@gmail.com',
     userLocation: 'Arequipa, Peru',
     userAvatar: 'https://api.adorable.io/avatars/150/test.png',
-    copyright: 'Copyright © 2019. JhOn Al',
+    copyright: 'Copyright © 2020. JhOn Achata Limachi',
     url: 'https://dcyar.github.io',
 
     socials: [
