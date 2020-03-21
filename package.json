@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "Jhon Achata <jachata.m@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.16.1",
+    "gatsby": "^2.20.2",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-catch-links": "^2.1.15",
     "gatsby-plugin-disqus": "^1.1.4",
