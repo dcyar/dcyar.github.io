@@ -7,7 +7,7 @@ function Vcard() {
     return (
         <div className={style.vcard}>
             <div className={style.vcardAbout}>
-                <h1 className={style.vcardTitle}>Hi, I'm JhOn</h1>
+                <h1 className={style.vcardTitle}>Hi, I'm JhOn Achata </h1>
                 <p className={style.vcardResume}>Web developer, with knowledge in Frontend, Backend, passionate about new technologies on the internet, music lover and explorer of the limits of the unknown.</p>
                 <div className={style.vcardLinks}>
                     <ul className={style.vcardLinksList}>

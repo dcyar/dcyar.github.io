@@ -29,9 +29,10 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "jhon achata",
+    "jhon achata limachi",
     "dcyar",
-    "blog"
+    "blog",
+    "fullstack"
   ],
   "license": "MIT",
   "scripts": {
