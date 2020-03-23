@@ -12,7 +12,7 @@ const IndexPage = ({data}) => (
     <Layout config={siteConfig}>
         <SEO title="Home" />
         <Vcard />
-        <Feed data={data.posts.edges} title="Latest Post" path="/blog" />
+        <Feed data={data.posts.edges} title="Latest Posts" path="/blog" />
         <Feed data={data.projects.edges} title="Latest Projects" path="/project" />
     </Layout>
 )
