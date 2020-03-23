@@ -5,7 +5,7 @@ date: 2020-03-22
 thumbnail: "../thumbnails/docker.png"
 group: "blog"
 category: "development, laravel, docker"
-description: 'En este articulo, cuento un poco sobre mi experiencia con gatsby un framework de javascript para sitios web estaticos...'
+description: 'En mi máquina funcionaba, ¿lo haz escuchado alguna vez? En este post veremos como usar docker para crear un entorno de desarrollo para laravel y trabajar de forma mas profesional...'
 tags:
     - php
     - laravel
@@ -13,7 +13,7 @@ tags:
     - nginx
     - mysql
 ---
-> En mi máquina funcionaba, lo haz escuchado alguna vez?
+> En mi máquina funcionaba, ¿lo haz escuchado alguna vez?
 
 Los entornos de desarrollo son un punto muy importante al momento de iniciar un nuevo proyecto, y más de una vez se ha oido: **En mi máquina funcionaba!**.
 
