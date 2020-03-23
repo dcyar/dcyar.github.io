@@ -6,7 +6,7 @@ const siteConfig = {
     siteDescription: 'Jhon Achata Limachi, fullstack, curioso, amante de la musica y la calidad de experiencia humana.',
     siteAuthor: 'Jhon Achata Limachi',
     dateFormat: "MMMM Do, YYYY",
-    userName: 'Jhon Achata',
+    userName: 'Jhon Achata Limachi',
     userEmail: 'jachata.m@gmail.com',
     userLocation: 'Arequipa, Peru',
     userAvatar: 'https://api.adorable.io/avatars/150/test.png',
