@@ -29,7 +29,7 @@ function Project({ data }) {
                     <div className={style.blogMeta}>
                         <time>{formatDate(post.frontmatter.date)}</time>
                         {" / "}
-                        <span>{siteConfig.siteTitleShort}</span>
+                        <span>{siteConfig.userName}</span>
                     </div>
                     <div className={style.blogTags}>
                         {
