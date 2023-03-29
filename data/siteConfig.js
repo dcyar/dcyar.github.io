@@ -7,10 +7,10 @@ const siteConfig = {
     siteAuthor: 'Jhon Achata Limachi',
     dateFormat: "MMMM Do, YYYY",
     userName: 'Jhon Achata Limachi',
-    userEmail: 'jachata.m@gmail.com',
+    userEmail: 'jhonachata.dev@gmail.com',
     userLocation: 'Arequipa, Peru',
     userAvatar: 'https://api.adorable.io/avatars/150/test.png',
-    copyright: 'Copyright © 2020. JhOn Achata Limachi',
+    copyright: 'Copyright © 2023. JhOn Achata Limachi',
     url: 'https://dcyar.github.io',
 
     socials: [
@@ -21,8 +21,8 @@ const siteConfig = {
         },
         {
             name: 'Twitter',
-            user: 'dcyar_',
-            url: 'https://twitter.com/dcyar_'
+            user: 'jhonachata',
+            url: 'https://twitter.com/jhonachata'
         },
     ],
     menuLinks: [

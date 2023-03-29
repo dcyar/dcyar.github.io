@@ -23,6 +23,11 @@ const Layout = ({ children, config }) => {
             </Helmet>
             
             <Header config={config}></Header>
+
+            <div className={style.containerMessage}>
+                <p>Este blog esta desactualizado, por favor visita mi nuevo blog: <a href="https://jhonachata.dev" title="Blog personal">jhonachata.dev</a></p>
+            </div>
+
             <div className={style.container}>
                 <div className={style.content}>
                     {children}

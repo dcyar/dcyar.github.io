@@ -1,7 +1,6 @@
 import React from 'react'
 
 import style from './vcard.module.styl'
-import photo from '../images/profile.jpg'
 
 function Vcard() {
     return (
@@ -15,14 +14,11 @@ function Vcard() {
                             <a href="https://github.com/dcyar/" className={style.vcardRoute} target="_blank" rel="noopener noreferrer">Github</a>
                         </li>
                         <li className={style.vcardLink}>
-                            <a href="https://twitter.com/dcyar_/" className={style.vcardRoute} target="_blank" rel="noopener noreferrer">Twitter</a>
+                            <a href="https://twitter.com/jhonachata/" className={style.vcardRoute} target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <figure className={style.vcardPhoto}>
-                <img src={photo} className={style.photo} alt="" />
-            </figure>
         </div>
     )
 }
